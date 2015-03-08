@@ -15,6 +15,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'devise'
 #Time zone info
 gem 'tzinfo-data'
+#Coffee-script Windows compatability
+gem 'coffee-script-source', '1.8.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
