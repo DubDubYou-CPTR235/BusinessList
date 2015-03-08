@@ -1,9 +1,9 @@
-<h1>[A BIG OL' LIST OF BUSINESSES]</h1>
-<% if user_signed_in? %>
-	<p>WELCOME BUSINESS OWNER!</p>
-<% end %>
+<h2>Business List</h2>
 <% @users = User.all %>
 <% @users.each do |user| %>
 	<%= user.email %><br />
+<% end %>
+<% if user_signed_in? %>
+	<p>WELCOME BUSINESS OWNER!</p>
 <% end %>
 <p>Find me in app/views/welcome/index.html.erb</p>
