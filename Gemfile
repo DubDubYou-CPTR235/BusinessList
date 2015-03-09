@@ -13,6 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 #Devise utilitiy
 gem 'devise'
+gem 'hirb'
 #Time zone info
 gem 'tzinfo-data'
 #Coffee-script Windows compatability
