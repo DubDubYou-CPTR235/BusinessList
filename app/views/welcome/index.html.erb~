@@ -1,9 +1,12 @@
 <h2>Business List</h2>
 <% @users = User.all %>
 <% @users.each do |user| %>
-	<%= user.name %><br />
+	<%=link_to user.name, controller: "users", action: "show", id: user.id %><br />
 <% end %>
 <% if user_signed_in? %>
 	<p>WELCOME BUSINESS OWNER!</p>
 <% end %>
+
+
+
 <p>Find me in app/views/welcome/index.html.erb</p>
