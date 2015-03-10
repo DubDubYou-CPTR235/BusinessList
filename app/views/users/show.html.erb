@@ -1,2 +1,6 @@
 <h1><%= @user.name %></h2>
+<b>Description: </b> <%= @user.desc %> <br />
+<b>Phone Number: </b> <%= @user.phone %><br />
+<b>Email: </b> <%= @user.email %><br />
+<%= link_to "Home", controller: "welcome", action: "index" %>
 <p>Find me in app/views/users/show.html.erb</p>
