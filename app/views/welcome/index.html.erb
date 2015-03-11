@@ -1,12 +1,19 @@
-<h2>Business List</h2>
+<p>WELCOME BUSINESS OWNER!</p>
+
+<h2>Business List</h2><br />
+
+<div class="businessList">
 <% @users = User.all %>
 <% @users.each do |user| %>
+
+	<div class="linkPadding">
 	<%=link_to user.name, controller: "users", action: "show", id: user.id %><br />
+	</div>
 <% end %>
+</div>
+
 <% if user_signed_in? %>
-	<p>WELCOME BUSINESS OWNER!</p>
+
+
+
 <% end %>
-
-
-
-<p>Find me in app/views/welcome/index.html.erb</p>

@@ -1,0 +1,134 @@
+header{
+	font-size: 72px;
+	font-size: 4vmax;
+    font-weight: bold;
+	width: auto;
+	color: #DCE0E6;
+	background: #2B4C7E;
+	padding-top: 3vmax;
+	padding-bottom: 3vmax;
+	padding-left: 10px;
+}
+
+.login{
+	position: absolute;
+	top: 0.5%;
+	right: 0.5%;
+	color: #DCE0E6;
+}
+
+.login a{
+	color: #DCE0E6;
+}
+
+.login a:visited{
+	color: #DCE0E6;
+}
+
+nav{
+	float: left;
+	clear: both;
+	background-color: #567EBB;
+	width: 100%;
+}
+
+nav ul{
+	float: left;
+	margin: 0;
+	padding: 5px;
+	padding-left: 15%;
+	list-style-type: none;
+	font-size: 100%;
+}
+
+nav li{
+	background-color: #
+2B4C7E;
+	display: inline;
+	float: left;
+	border-left: 2px solid #DCE0E6;
+	padding: 0.5vmax 1.5vmax;
+}
+
+nav li a{
+	display: block;
+	text-decoration: none;
+	color: #DCE0E6;
+	font-size: 2vmax;
+}
+nav li a:visited{
+	color: #DCE0E6;
+}
+
+nav li:last-child{
+	border-right: 2px solid #DCE0E6;
+	clear: right;
+
+}
+
+.content {
+	height: 80%;
+	clear: both;
+	background-color: #DCE0E6;
+    padding: 20px 15px;
+	width: auto;
+	border-left: 200px solid #606D80;
+	border-right: 200px solid #606D80;	
+}
+.content h2{
+	font-size: 32px;
+	padding-bottom: 10px;
+	text-decoration: underline;
+}
+
+.content a{
+	font-size: 16px;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+footer{
+	
+	font-size: 1.5vmax;
+	width: auto;
+	clear: both;
+	background: #2B4C7E;
+	color: #DCE0E6;
+	text-align: center;
+	padding-top: 0.5vmax;
+	padding-bottom: 0.5vmax;
+}
+
+.businessBox{
+	border: 3px solid #567EBB;
+}
+
+.businessBox h1{
+	font-size: 32px;
+	padding: 10px;
+	padding-bottom:15px;
+}
+
+.businessBox b{
+	font-size: 16px;
+	padding-left: 40px;
+}
+
+.linkPadding{
+	padding-bottom: 10px;
+}
+
+.content p{
+	padding-bottom: 40px;
+	font-size: 24px;
+}
+
+.businessList a{
+	padding-left: 20px;
+	font-size: 20px;
+	text-decoration: none;
+}
